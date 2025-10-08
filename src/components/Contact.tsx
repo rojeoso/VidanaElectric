@@ -79,10 +79,10 @@ function Contact() {
     phone: "254-718-2215",
     email: "info@vidanaelectric.com",
     address: {
-      street: "1234 Industrial Blvd",
-      city: "Temple",
+      street: "807 N Central Ave",
+      city: "Troy",
       state: "TX",
-      zip: "76504"
+      zip: "76579"
     },
     hours: {
       weekdays: "Monday - Friday: 7:00 AM - 6:00 PM",
