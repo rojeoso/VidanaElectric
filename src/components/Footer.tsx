@@ -13,11 +13,11 @@ function Footer() {
 
             {/* Quick Links */}
             <div className="footer-links">
-              <a href="#services" className="footer-link">Services</a>
-              <a href="#portfolio" className="footer-link">Our Work</a>
-              <a href="#why-choose-us" className="footer-link">Why Choose Us</a>
-              <a href="#service-area" className="footer-link">Service Area</a>
-              <a href="#contact" className="footer-link">Contact</a>
+              <a href="/#services" className="footer-link">Services</a>
+              <a href="/#portfolio" className="footer-link">Our Work</a>
+              <a href="/#why-choose-us" className="footer-link">Why Choose Us</a>
+              <a href="/#service-area" className="footer-link">Service Area</a>
+              <a href="/#contact" className="footer-link">Contact</a>
             </div>
 
             {/* Contact Information */}
@@ -29,8 +29,12 @@ function Footer() {
               <span className="footer-text">Temple, TX</span>
             </div>
 
-            {/* Copyright */}
-            <span className="copyright">© 2025 Vidana Electric</span>
+            {/* Legal */}
+            <div className="footer-legal">
+              <a href="/privacy.html" className="footer-link">Privacy Policy</a>
+              <span className="separator">•</span>
+              <span className="copyright">© 2025 Vidana Electric</span>
+            </div>
           </div>
         </div>
       </footer>
@@ -75,7 +79,8 @@ function Footer() {
           flex-wrap: wrap;
         }
 
-        .footer-contact {
+        .footer-contact,
+        .footer-legal {
           display: flex;
           align-items: center;
           gap: var(--space-2);
@@ -119,7 +124,8 @@ function Footer() {
           }
 
           .footer-links,
-          .footer-contact {
+          .footer-contact,
+          .footer-legal {
             justify-content: center;
           }
         }

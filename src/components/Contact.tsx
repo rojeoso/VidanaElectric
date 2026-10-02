@@ -342,6 +342,11 @@ function Contact() {
               <button type="submit" className="form-submit" disabled={isSubmitting}>
                 <span>{isSubmitting ? 'Sending...' : 'Get My Free Estimate'}</span>
               </button>
+
+              <p className="form-privacy-note">
+                By submitting this form, you agree to our{' '}
+                <a href="/privacy.html" className="form-privacy-link">Privacy Policy</a>.
+              </p>
             </form>
           </div>
         </div>
@@ -687,6 +692,17 @@ function Contact() {
 
         .checkbox-text {
           color: #666;
+        }
+
+        .form-privacy-note {
+          color: #666;
+          font-size: 0.8125rem;
+          margin: var(--space-3) 0 0;
+        }
+
+        .form-privacy-link {
+          color: #cd0a1b;
+          text-decoration: underline;
         }
 
         .form-submit {
