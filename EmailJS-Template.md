@@ -35,6 +35,10 @@ PROJECT DETAILS
 ====================
 {{message}}
 
+CONSENT
+====================
+Agreed to receive calls, texts, and emails: {{consent}}
+
 ---
 This request was submitted via the Vidana Electric website contact form.
 Submitted on: {{submit_date}}
@@ -102,6 +106,7 @@ Use these variables in your EmailJS template:
 | `{{service}}` | Specific service selected | Yes |
 | `{{address}}` | Property address | No |
 | `{{message}}` | Project details/description | No |
+| `{{consent}}` | Agreed to receive calls/texts/emails (`Yes` or `No`) | Always sent |
 
 ---
 
