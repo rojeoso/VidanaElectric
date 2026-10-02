@@ -26,7 +26,7 @@ function Footer() {
               <span className="separator">•</span>
               <a href="mailto:Francisco@vidanaelectric.com" className="footer-link">Francisco@vidanaelectric.com</a>
               <span className="separator">•</span>
-              <span className="footer-text">Temple, TX</span>
+              <span className="footer-text">Troy, TX</span>
             </div>
 
             {/* Legal */}

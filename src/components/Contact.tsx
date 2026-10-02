@@ -5,6 +5,7 @@ function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
   const [serviceType, setServiceType] = useState<'commercial' | 'residential' | ''>('');
+  const [consent, setConsent] = useState(false);
   const addressInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -67,6 +68,8 @@ function Contact() {
 
       setSubmitStatus('success');
       form.reset();
+      setServiceType('');
+      setConsent(false);
     } catch (error) {
       console.error('EmailJS error:', error);
       setSubmitStatus('error');
@@ -320,11 +323,18 @@ function Contact() {
 
               <div className="form-group checkbox-group">
                 <label className="checkbox-label">
-                  <input type="checkbox" className="form-checkbox" />
+                  <input
+                    type="checkbox"
+                    className="form-checkbox"
+                    checked={consent}
+                    onChange={(e) => setConsent(e.target.checked)}
+                  />
                   <span className="checkbox-text">
-                    I agree to receive communications from Vidana Electric regarding my estimate request.
+                    I agree to receive calls, texts, and emails from Vidana Electric regarding my estimate request.
+                    Message and data rates may apply. Reply STOP to opt out of texts.
                   </span>
                 </label>
+                <input type="hidden" name="consent" value={consent ? 'Yes' : 'No'} />
               </div>
 
               {submitStatus === 'success' && (

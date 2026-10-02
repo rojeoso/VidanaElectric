@@ -340,7 +340,7 @@ function Area() {
             <div className="info-card">
               <h4>Service Area</h4>
               <p><strong>Bell County, Texas</strong></p>
-              <p>Headquartered in Temple, TX</p>
+              <p>Headquartered in Troy, TX</p>
               <p>Serving Central Texas</p>
             </div>
           </div>
@@ -364,7 +364,7 @@ function Area() {
           </h2>
 
           <p className="area-description">
-            With over 50 years of experience, Vidana Electric provides comprehensive electrical services throughout Central Texas. From Temple headquarters, we serve residential and commercial clients across the region with reliable, professional electrical solutions you can trust.
+            With over 50 years of experience, Vidana Electric provides comprehensive electrical services throughout Central Texas. From our Troy headquarters, we serve residential and commercial clients across the region with reliable, professional electrical solutions you can trust.
           </p>
 
           <a href="#contact" className="area-cta">
