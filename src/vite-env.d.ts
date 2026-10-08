@@ -15,6 +15,7 @@ declare global {
   interface Window {
     google: typeof google
     __gmapsPromise?: Promise<typeof google>
+    fbq?: (...args: unknown[]) => void
   }
 }
 
