@@ -1,5 +1,6 @@
 import { useState, FormEvent, useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { trackPixel } from '../metaPixel';
 
 function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -67,6 +68,7 @@ function Contact() {
       );
 
       setSubmitStatus('success');
+      trackPixel('Lead');
       form.reset();
       setServiceType('');
       setConsent(false);
