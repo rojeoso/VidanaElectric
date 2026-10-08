@@ -4,6 +4,9 @@ import PrivacyPolicy from './components/PrivacyPolicy.tsx'
 import Footer from './components/Footer.tsx'
 import './index.css'
 import './styles/globals.css'
+import { trackPhoneClicks } from './metaPixel'
+
+trackPhoneClicks()
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

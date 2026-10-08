@@ -1,4 +1,4 @@
-const EFFECTIVE_DATE = 'October 1, 2026';
+const EFFECTIVE_DATE = 'October 8, 2026';
 
 const contactInfo = {
   phone: '254-718-2215',
@@ -85,10 +85,11 @@ function PrivacyPolicy() {
 
             <h3>Information collected automatically</h3>
             <p>
-              Our website does not use analytics or advertising trackers. However, like all websites, when your
-              browser loads our pages, the servers it connects to (including our web host and the third-party
-              services described in Section 3) automatically receive standard technical information such as
-              your IP address, browser type, device type, and the date and time of your visit.
+              When your browser loads our pages, the servers it connects to (including our web host and the
+              third-party services described in Section 3) automatically receive standard technical information
+              such as your IP address, browser type, device type, and the date and time of your visit. We also
+              use the Meta Pixel to record basic activity on our site, such as which pages you visit, when you
+              submit our estimate form, and when you tap one of our phone numbers (see Section 6).
             </p>
           </section>
 
@@ -104,8 +105,10 @@ function PrivacyPolicy() {
               <li>Comply with legal obligations, permit requirements, and protect our rights</li>
             </ul>
             <p>
-              <strong>We do not sell your personal information</strong>, and we do not use it for targeted
-              advertising.
+              <strong>We do not sell your personal information.</strong> We do not share the contents of your
+              estimate request (such as your name, phone number, email, or address) with advertising
+              platforms. We use the website activity described in Section 6 to measure and improve our
+              advertising on Facebook and Instagram.
             </p>
           </section>
 
@@ -130,6 +133,15 @@ function PrivacyPolicy() {
                 and the{' '}
                 <a href="https://maps.google.com/help/terms_maps/" target="_blank" rel="noopener noreferrer">
                   Google Maps Terms of Service
+                </a>.
+              </li>
+              <li>
+                <strong>Meta Pixel</strong> — We use the Meta Pixel, provided by Meta Platforms, Inc. (the
+                company behind Facebook and Instagram), to understand how visitors who see our ads use our
+                website and to measure how well those ads work. Meta may combine this activity with information
+                it already has about you, as described in the{' '}
+                <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener noreferrer">
+                  Meta Privacy Policy
                 </a>.
               </li>
               <li>
@@ -184,16 +196,24 @@ function PrivacyPolicy() {
           <section id="cookies" className="policy-section">
             <h2>6. Cookies & Tracking</h2>
             <p>
-              Vidana Electric does not set its own cookies or use analytics, advertising pixels, or other
-              tracking technologies on this website. Google Maps, which is embedded on our site, may set or
-              read cookies as described in Google's privacy policy. You can block or delete cookies through
-              your browser settings; the website will still work, although the map or address suggestions
+              Our website uses the Meta Pixel, which sets cookies and records events such as page views,
+              estimate form submissions, and taps on our phone numbers. Meta uses this information to help us
+              measure our ads and show them to people who may be interested in our services. Google Maps,
+              which is embedded on our site, may also set or read cookies as described in Google's privacy
+              policy.
+            </p>
+            <p>
+              You can block or delete cookies through your browser settings, and you can control how Meta uses
+              your information for ads in your{' '}
+              <a href="https://www.facebook.com/adpreferences/" target="_blank" rel="noopener noreferrer">
+                Facebook ad preferences
+              </a>. The website will still work if you block cookies, although the map or address suggestions
               may not.
             </p>
             <p>
-              <strong>Do Not Track:</strong> Some browsers offer a "Do Not Track" setting. Because we do not
-              track visitors across websites, our site does not change its behavior in response to these
-              signals.
+              <strong>Do Not Track:</strong> Some browsers offer a "Do Not Track" setting. There is no
+              common standard for responding to these signals, so our site does not currently change its
+              behavior in response to them.
             </p>
           </section>
 
