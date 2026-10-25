@@ -1,4 +1,4 @@
-const EFFECTIVE_DATE = 'October 8, 2026';
+const EFFECTIVE_DATE = 'October 25, 2026';
 
 const contactInfo = {
   phone: '254-718-2215',
@@ -88,8 +88,9 @@ function PrivacyPolicy() {
               When your browser loads our pages, the servers it connects to (including our web host and the
               third-party services described in Section 3) automatically receive standard technical information
               such as your IP address, browser type, device type, and the date and time of your visit. We also
-              use the Meta Pixel to record basic activity on our site, such as which pages you visit, when you
-              submit our estimate form, and when you tap one of our phone numbers (see Section 6).
+              use the Meta Pixel and Google Tag Manager to record basic activity on our site, such as which
+              pages you visit, when you submit our estimate form, and when you tap one of our phone numbers
+              (see Section 6).
             </p>
           </section>
 
@@ -107,8 +108,8 @@ function PrivacyPolicy() {
             <p>
               <strong>We do not sell your personal information.</strong> We do not share the contents of your
               estimate request (such as your name, phone number, email, or address) with advertising
-              platforms. We use the website activity described in Section 6 to measure and improve our
-              advertising on Facebook and Instagram.
+              platforms. We use the website activity described in Section 6 to understand how visitors use
+              our site and to measure and improve our advertising on Facebook, Instagram, and Google.
             </p>
           </section>
 
@@ -142,6 +143,17 @@ function PrivacyPolicy() {
                 it already has about you, as described in the{' '}
                 <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener noreferrer">
                   Meta Privacy Policy
+                </a>.
+              </li>
+              <li>
+                <strong>Google Tag Manager</strong> — We use Google Tag Manager, provided by Google LLC, to
+                manage the measurement and advertising tags on our website. Through it we may use Google
+                services such as Google Analytics, to understand how visitors find and use our site, and Google
+                Ads, to measure how well our ads work. These services may collect information such as your IP
+                address, device and browser details, and the pages you visit, and may use cookies, as described
+                in{' '}
+                <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">
+                  How Google uses information from sites that use its services
                 </a>.
               </li>
               <li>
@@ -198,15 +210,24 @@ function PrivacyPolicy() {
             <p>
               Our website uses the Meta Pixel, which sets cookies and records events such as page views,
               estimate form submissions, and taps on our phone numbers. Meta uses this information to help us
-              measure our ads and show them to people who may be interested in our services. Google Maps,
-              which is embedded on our site, may also set or read cookies as described in Google's privacy
-              policy.
+              measure our ads and show them to people who may be interested in our services. We also use
+              Google Tag Manager, which may load Google services such as Google Analytics and Google Ads that
+              set cookies and record similar activity so we can understand how our site is used and measure
+              our Google ads. Google Maps, which is embedded on our site, may also set or read cookies as
+              described in Google's privacy policy.
             </p>
             <p>
               You can block or delete cookies through your browser settings, and you can control how Meta uses
               your information for ads in your{' '}
               <a href="https://www.facebook.com/adpreferences/" target="_blank" rel="noopener noreferrer">
                 Facebook ad preferences
+              </a>. You can control Google ad personalization in{' '}
+              <a href="https://myadcenter.google.com/" target="_blank" rel="noopener noreferrer">
+                My Ad Center
+              </a>{' '}
+              and opt out of Google Analytics with the{' '}
+              <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">
+                Google Analytics opt-out browser add-on
               </a>. The website will still work if you block cookies, although the map or address suggestions
               may not.
             </p>
